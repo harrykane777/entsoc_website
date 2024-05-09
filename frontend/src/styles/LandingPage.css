@@ -1,0 +1,5 @@
+.main-container {
+    background-image: url("../styles/background_image.jpg");
+    height: 100vh;
+    width: 100vw;
+}
