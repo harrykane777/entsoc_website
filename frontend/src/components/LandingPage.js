@@ -4,7 +4,15 @@ import '../styles/LandingPage.css';
 const LandingPage = () => {
     return (
         <div className="main-container">
-            <h1>Hello world</h1>
+            <img src={require("../styles/background_image.jpg")} className="bg-img" />
+            <div className="text-overlay">
+                UNSW<br/>Entrepreneurs' Society<br />
+                <span>Hello world</span>
+            </div>
+            <div className="container">
+                <b>Entsoc</b><br />
+                Gathering like-minded entrepreneurs
+            </div>
         </div>
     );
 }

@@ -1,5 +1,45 @@
+body {
+    background-color: #201E1E;
+    color: #FFFFFF;
+    font-family: Helvetica;
+}
+
 .main-container {
-    background-image: url("../styles/background_image.jpg");
+    position: relative;
     height: 100vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bg-img {
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.9;
+    filter: brightness(70%);
+}
+
+.text-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5em;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: #FFFFFF;
+    position: absolute;
+    text-align: center;
+}
+
+.text-overlay span {
+    font-weight: normal;
+    font-size: 0.75em;
+}
+
+.container {
+    text-align: center;
+    font-size: 2em;
 }
