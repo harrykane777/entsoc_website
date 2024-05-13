@@ -4,6 +4,10 @@ body {
     font-family: Helvetica;
 }
 
+h1 {
+    margin: 0;
+}
+
 .main-container {
     position: relative;
     height: 100%;
@@ -45,6 +49,20 @@ body {
 .container {
     text-align: center;
     font-size: 2em;
+    padding: 2% 5%;
+}
+
+.sponsors {
+    background-color: #FFFFFF;
     padding: 5%;
-    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    flex-wrap: wrap;
+}
+
+.sponsors > img {
+    max-height: 128px;
+    max-width: 512px;
 }
