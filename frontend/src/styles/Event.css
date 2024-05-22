@@ -1,0 +1,46 @@
+.event-card {
+    margin: 2vh 0;
+    width: 20vw;
+    height: 40vh;
+    background-color: #000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    transition: all .25s ease-in-out;
+}
+
+.event-card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.date-location-space {
+    /* border: 2px solid red; */
+    padding: 5% 10% 0 10%;
+    color: #E4BE5E;
+    font-weight: bold;
+}
+
+.image-space {
+    border-radius: 5px 5px 0 0;
+    flex: 0 0 auto;
+    height: 40%;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.image-space > img {
+    flex-shrink: 1;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.content-space {
+    /* border: 2px solid red; */
+    padding: 5% 10%;
+    height: 100%;
+}

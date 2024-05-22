@@ -28,7 +28,7 @@ const LandingPage = () => {
                     <img src={require("../styles/amazon.png")} />
                     <img src={require("../styles/microsoft.png")} />
                 </div>
-            </div>
+            </div>  
         </div>
     );
 }

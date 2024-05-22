@@ -1,0 +1,16 @@
+.events-main-container {
+    padding: 10vh 2vw 4vh 2vw;
+}
+
+.events-container {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.empty-space {
+    margin: 2vh 0;
+    width: 20vw;
+    height: 40vh;
+}
