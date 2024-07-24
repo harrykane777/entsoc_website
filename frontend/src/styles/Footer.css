@@ -1,0 +1,40 @@
+.footer {
+    background-color: #000000;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+
+.footer-title {
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
+
+.logo-container {
+    display: flex;
+}
+
+.socials-logo {
+    margin: 0px 5px;
+    height: 30px;
+    width: 30px;
+}
+
+a:hover {
+    cursor: pointer;
+}
